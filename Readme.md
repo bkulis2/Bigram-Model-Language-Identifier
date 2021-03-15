@@ -1,4 +1,4 @@
-# N-Gram Language Model Identification  (Assignment-2)
+# Bigram Model Language Identifier
 #### By: Benjamin Kulis (bkulis2)
 ### Problem Solved
 My program solves the problem of idenitfying what language that a sentence is written in. There are 3 programs that idenitfy the language in different ways. The first is the `letterLangId.ipynb` program, which uses a letter bigram model for English, French, and Italian and determines which language the sentence is in. The second is the `wordLangId.ipynb` program, which uses a word bigram model for the 3 langauges and decides the the most probable language the sentence is written in. The last is the `wordLangId2.ipynb` program which is implemented the same way as the latter program, except it uses the Good-Turing smoothing algorithm, instead of Laplace (or add-one) smoothing (like the previous two models), to account for Out of Vocabulary words, and predict the language of an inputted sentences.
